@@ -91,7 +91,11 @@ function Counter (){
     }
 
 
-    function play(){              
+    function play(){    
+        
+        let dateNow = new Date()
+        let prevDate = Date.parse(dateNow)
+        console.log(prevDate)
 
         // Elimina a execução em paralelo de outras funções contadoras, assim DEIXANDO DE ACELERAR O CONTADOR
         if(!intervalo){
@@ -103,6 +107,10 @@ function Counter (){
     }
 
     function pause(){
+
+        let dateNow = new Date()
+        let nextDate = Date.parse(dateNow)
+        console.log(nextDate)
         
         // Elimina a execução em paralelo de outras funções contadoras, assim DEIXANDO DE ACELERAR O CONTADOR
         if(intervalo){

@@ -24,7 +24,7 @@ function ListLaps (props){
 
             {props.countLapF2.map( item =>
                 <li key={item.id} id= {indice++} className={ (indiceClass = indice - 1) === indiceMaiorValor? "red" : indiceClass === indiceMenorValor? "green" : "darkred" } >
-                    Lap{numberLap++} ---  {item}
+                    Day{numberLap++} ---  {item} <button  className="delete">delete</button>
                 </li>
                 )
             }
