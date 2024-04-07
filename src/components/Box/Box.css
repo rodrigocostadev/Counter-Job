@@ -1,0 +1,30 @@
+p{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+input{
+    width: 100px;
+    margin-right: 10px;
+    font-family: 'Goldman', cursive;
+}
+
+.submit {
+    /* border: none; */
+    margin-bottom: 30px;
+    margin-top: 30px;
+    width: 100px;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 15px;
+    border-width: 5px;
+    font-family: 'Goldman', cursive;
+    background-color: white;
+}
+  .submit:hover{
+    color: white;
+    /* color: white; */
+    background-color: darkred;
+    cursor: pointer;
+    transition: 300ms;
+    transform: scale(1.1);  
+  }
